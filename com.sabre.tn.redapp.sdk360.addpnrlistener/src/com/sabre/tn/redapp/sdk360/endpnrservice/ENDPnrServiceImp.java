@@ -93,7 +93,7 @@ public class ENDPnrServiceImp implements ENDPnrService {
     	
     	for(Remark r : resp.getTravelItinerary().getRemarkInfo().getRemark()) {
     		
-    		if(r.getType().equals("Historical") && r.getText().equals("TEST") ) {
+    		if(r.getType().equals("Historical") && r.getText().equals("STX2019") ) {
     			return true ; 
     		}
     		
