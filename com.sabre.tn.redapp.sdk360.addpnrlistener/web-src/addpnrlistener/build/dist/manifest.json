@@ -1,0 +1,19 @@
+{
+  "name": "addpnrlistener",
+  "version": "4.8.7",
+  "meta": {},
+  "dependencies": [
+    "sabre-ngv-app",
+    "sabre-ngv-core",
+    "sabre-ngv-xp",
+    "sabre-ngv-hints"
+  ],
+  "submodules": [
+    "addpnrlistener/Context",
+    "addpnrlistener/index",
+    "addpnrlistener/Main",
+    "addpnrlistener/views/addPNRDialog"
+  ],
+  "hasTemplates": true,
+  "hasStyles": true
+}

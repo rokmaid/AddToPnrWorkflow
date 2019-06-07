@@ -1,0 +1,22 @@
+{
+  "name": "addpnrlistener-src",
+  "version": "1.0.0",
+  "description": "NGV module",
+  "author": {
+    "name": "rodrigo kmaid",
+    "email": "",
+    "url": ""
+  },
+  "contributors": [],
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "ngv": {
+    "buildDependencies": {
+      "sabre-ngv-app": "*",
+      "sabre-ngv-core": "*",
+      "sabre-ngv-xp": "*",
+      "sabre-ngv-hints": "*"
+    },
+    "concierge_version_min": "4.8.7"
+  }
+}

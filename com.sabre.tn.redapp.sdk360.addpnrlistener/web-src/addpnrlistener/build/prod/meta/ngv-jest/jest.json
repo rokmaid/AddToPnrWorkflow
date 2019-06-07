@@ -1,0 +1,9 @@
+{
+  "moduleNameMapper": {
+    "^(addpnrlistener/Context)$": "meta\\ngv-jest\\addpnrlistener\\Context.js",
+    "^(addpnrlistener)$": "meta\\ngv-jest\\addpnrlistener\\views\\index.js",
+    "^(addpnrlistener/index)$": "meta\\ngv-jest\\addpnrlistener\\index.js",
+    "^(addpnrlistener/Main)$": "meta\\ngv-jest\\addpnrlistener\\Main.js",
+    "^(addpnrlistener/views/addPNRDialog)$": "meta\\ngv-jest\\addpnrlistener\\views\\addPNRDialog.js"
+  }
+}

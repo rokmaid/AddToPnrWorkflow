@@ -1,0 +1,1 @@
+this.app=this.app||{},this.app.templates=this.app.templates||{},this.app.templates["addpnrlistener:Example"]=Handlebars.template({compiler:[7,">= 4.0.0"],main:function(container,depth0,helpers,partials,data){return"<!-- Provide templates in this directory -->"},useData:!0});

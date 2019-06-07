@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="com.sabre.edge.dynamo.flow.flowextpoint.registry">
+      <flowExtensionPoint
+            callbackService="com.sabre.tn.redapp.sdk360.endpnrservice.ENDPnrService:execute"
+            extensionPointId="beforeEndCommand"
+            flowId="dynamo.pnr.end">
+      </flowExtensionPoint>
+   </extension>
+   <extension
+         point="com.sabre.edge.dynamo.web.module">
+      <modules>
+         <module
+               id="addpnrlistener"
+               isInternal="false">
+         </module>
+      </modules>
+   </extension>
+   <extension
+         point="com.sabre.edge.redapp.contactdetails.provider">
+      <contactDetails
+            company="com.sabre.tn.redapp.sdk360.addpnrlistener.contactDetails1"
+            contactName="com.sabre.tn.redapp.sdk360.addpnrlistener.contactDetails1"
+            email="com.sabre.tn.redapp.sdk360.addpnrlistener.contactDetails1"
+            phoneNumber="com.sabre.tn.redapp.sdk360.addpnrlistener.contactDetails1">
+      </contactDetails>
+   </extension>
+</plugin>
