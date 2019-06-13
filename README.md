@@ -12,7 +12,7 @@ This sample demonstrates the posiblilty of listening to the end pnr action in Sa
 ## Running RedApp on Eclipse Plugin development
 This RedApp can be imported and used on developer environment to serve as sample code In order to do that, any developer could download the RedApp Developer Toolkit and from there configure the Eclipse IDE (dev environment) and a Target platform that will "emulate" Sabre Red Workspace Desktop to run on developer machine. That’s the same toll that thousands of Travel consultants use worldwide to SHOP, BOOK, PRICE and FULFILL Travel arrangements.
 for more information please navigate to Sabre Dev Studio, register yourself, and follow the TOOLS->Sabre Developer Toolkit link to download
-resource and get more instruction on configurations settings. (https://developer.sabre.com/tools/Red_App/)
+resource and get more instruction on configurations settings. (https://beta.developer.sabre.com/tools/Red_App/)
 
 # Support
 •	Stack Overflow
