@@ -3,6 +3,12 @@
 ## OverView
 This sample demonstrates the posiblilty of listening to the end pnr action in Sabre Red 360 and though the beforeEndCommand workflow read the PNR information and determine if the PNR should end or not, if the PNR is missing information the sample will display a hint message for the user to add the missing information . 
 
+## Technologies used 
+
+•	Java 
+•	TypeScript 
+•	Sabre Web Services 
+
 ## Running RedApp on Eclipse Plugin development
 This RedApp can be imported and used on developer environment to serve as sample code In order to do that, any developer could download the RedApp Developer Toolkit and from there configure the Eclipse IDE (dev environment) and a Target platform that will "emulate" Sabre Red Workspace Desktop to run on developer machine. That’s the same toll that thousands of Travel consultants use worldwide to SHOP, BOOK, PRICE and FULFILL Travel arrangements.
 for more information please navigate to Sabre Dev Studio, register yourself, and follow the TOOLS->Sabre Developer Toolkit link to download
